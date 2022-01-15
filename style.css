@@ -3,7 +3,7 @@ body{
 font-family: 'Pacifico', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
-margin: 0;
+
 }
 .top-heading{
     padding-left: 120px;
@@ -28,7 +28,7 @@ h1{
 
 }
 .main-section img{
-    width: 80%;
+    width: 90%;
 }
 .button{
     border: 1px solid white;
@@ -42,8 +42,8 @@ h1{
 }
 .influencer-image{
     padding-top:95px ;
-    margin-left: 280px;
-    padding-left: 150px;
+    margin-left: 250px;
+    padding-left: 100px;
 }
 .popular{
     text-align: center;
@@ -59,8 +59,8 @@ h1{
     width: 1047px;
     height: 1662px;
     padding: 30px;
-    left: 196px;
-    top: 700px;
+    left: 170px;
+    top: 720px;
 
 
 }
@@ -85,4 +85,28 @@ p{
 
 .fas-fa-star{
     color: yellow;
+}
+.more{
+    position: relative;
+    left: 830px;
+    text-align: right;
+    color: #E02C6DDE;
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+.bottom{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1800px;
+    padding-top: 30px;
+    height: 200px;
+    
+}
+.fab {
+    padding: 15px;
+   
+
 }
