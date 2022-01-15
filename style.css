@@ -45,6 +45,10 @@ h1{
     margin-left: 250px;
     padding-left: 100px;
 }
+.influencer-image:hover{
+    transform: rotate(30deg);
+    transition: transform: 1s ;
+}
 .popular{
     text-align: center;
     margin-top:150px;
@@ -96,11 +100,30 @@ p{
 
 
 }
+.additional{
+    display: flex;
+    width: 1450px;
+    margin-top: 1900px;
+    margin-left:100px;
+    padding-left: 30px;
+}
+.monitor{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.monitor image{
+    width: 100%;
+    padding-left: 20px;
+}
+.tv-monitor{
+    width: 500px;
+}
 .bottom{
     text-align: center;
     background-color: black;
     color: white;
-    margin-top: 1800px;
+    margin-top: 150px;
     padding-top: 30px;
     height: 200px;
     
