@@ -4,6 +4,7 @@ font-family: 'Pacifico', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 
+
 }
 .top-heading{
     padding-left: 120px;
@@ -12,23 +13,23 @@ h1{
     font-size: 52px;
     margin: 0;
 }
-.influencer{
-    
-    width: 582px;
+.main-section{
+    width: 1100px;
     height: 270px;
     padding-left: 120px;
     padding-top: 150px;
     
+}
+.influence{ 
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 0;
     
 }
-.main-section{
-    display: flex;
-    margin-top: 0;
-   
 
-}
 .main-section img{
-    width: 90%;
+    width: 100%;
 }
 .button{
     border: 1px solid white;
@@ -41,32 +42,34 @@ h1{
     font-weight: 700;
 }
 .influencer-image{
-    padding-top:95px ;
-    margin-left: 250px;
+    /* width: 200px; */
+    padding-top:0px ;
+    margin-left: 200px;
     padding-left: 100px;
 }
-.influencer-image:hover{
+/* .influencer-image:hover{
     transform: rotate(30deg);
     transition: transform: 1s ;
+} */
+.colections{
+    position: absolute;
+    width: 1047px;
+    height: 1662px;
+    padding: 30px;
+    left: 170px;
+    top: 450px;
+    
 }
 .popular{
     text-align: center;
-    margin-top:150px;
-    margin-bottom: 0px;
+    margin-top:250px;
+    margin-bottom: 50px;
 }
 .colection{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-    position: absolute;
-    width: 1047px;
-    height: 1662px;
-    padding: 30px;
-    left: 170px;
-    top: 720px;
-
-
 }
 .product{
     
@@ -102,17 +105,17 @@ p{
 }
 .additional{
     display: flex;
-    width: 1450px;
-    margin-top: 1900px;
-    margin-left:100px;
-    padding-left: 30px;
+    width: 1200px;
+    margin-top: 2150px;
+    margin-left:160px;
+    padding-left: 35px;
 }
-.monitor{
+.additional-right{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
 }
-.monitor image{
+.additional-left image{
     width: 100%;
     padding-left: 20px;
 }
@@ -130,6 +133,64 @@ p{
 }
 .fab {
     padding: 15px;
-   
+}
+@media screen and (max-width:688px) {
+ body{
+     /* overflow: hidden; */
+ }
+    .influencer-image{
+    padding-top: 30px;
+    padding-left: 0px;
+    margin-left: 0;
+}
+.main-section{
+     width: 100%;
+} 
+    .influence{
+     flex-direction: column;
+}
+.popular{
+    text-align: center;
+    margin-top: 550px;
+}
+h2{
+    margin: 0px;
+}
+.more{
+    position: static;
+}
 
+.colections{
+    width: 100%;
+
+}
+.colection{
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    margin-top: 150px;
+
+}
+.additional{
+    flex-direction: column;
+    margin-top: 6000px;
+    width: 100%;
+   
+}
+.additional image{
+    
+    width: 70%;
+}
+.tv-monitor{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.bottom{
+    width:600px;
+}
+
+     
+.bottom {
+    display: none;
+}   
 }
