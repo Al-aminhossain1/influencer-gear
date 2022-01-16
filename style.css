@@ -186,11 +186,11 @@ h2{
 }
 
 .bottom{
-    width:600px;
+    width:160%;
 }
 
      
 .bottom {
-    display: none;
+    /* display: none; */
 }   
 }
