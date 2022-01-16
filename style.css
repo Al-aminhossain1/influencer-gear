@@ -134,7 +134,7 @@ p{
 .fab {
     padding: 15px;
 }
-@media screen and (max-width:688px) {
+@media only screen and (max-width:688px) {
  body{
      /* overflow: hidden; */
  }
@@ -194,3 +194,23 @@ h2{
     /* display: none; */
 }   
 }
+/*------------------
+ table devices
+------------------ */
+@media  only screen and (min-width:688px) and (max-width:922px){
+
+    .bottom{
+width: 1600px;
+    }
+    /* .colection{
+        grid-template-columns: repeat(2, 1fr);
+            flex-direction: column;
+        }
+        .additional{
+                margin-top: 3200px;
+        } */
+        /* .more{
+            position: static;
+        } */
+}
+    
